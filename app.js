@@ -42,15 +42,6 @@ app.listen(port, () => {
 });
 
 //以下路由設定
-//顯示view的main
-// app.get("/", (req, res) => {
-//   // res.render("index", { restaurant: restaurant });
-//   res.send("This is my movie list built with Express");
-// });
-
 app.get("/", (req, res) => {
   res.render("index");
-  // res.send("This is my movie list built with Express");
 });
-
-//////////////////////////////////////////////
